@@ -31,7 +31,7 @@ const botones = document.querySelectorAll( '.boton' )
 
             }
             if(contador == 0){
-                valor.style.color = `blue`;
+                valor.style.color = `#2306f8`;
 
             }
             
