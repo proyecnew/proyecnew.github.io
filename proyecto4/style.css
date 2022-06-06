@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    background: rgb(85, 144, 189);
+}
+.title{
+    text-align: center;
+    padding: 16px;
+}
+.poket-lits{
+    display: grid;
+    grid-template-columns: 1fr  1fr  1fr ;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.poket1 , .poket2 ,.poket3  ,.poket4  ,.poket5 ,.poket6 {
+    border: 1px solid  #25aa25;
+    width: 420px;
+    height: 200px;
+    text-align: center;
+    margin: 50px;
+    background: rgb(55, 124, 139);
+    background-image: url("blod.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    
